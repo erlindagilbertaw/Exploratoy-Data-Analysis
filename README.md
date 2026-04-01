@@ -23,6 +23,8 @@
 
 
 <img src="https://github.com/user-attachments/assets/1311dc05-d9e9-4e77-8042-d84b3be545dd" alt="Foto Erlinda" width="150" style="border:none;"/>
+
+<img src="https://github.com/user-attachments/assets/57dc7a39-4581-4a19-868d-03a5c532548f" alt="EDA_Assumption_Image 1" width="150" style="border:none;"/>
   
 <table style="text-align:left;">
 <tr>
