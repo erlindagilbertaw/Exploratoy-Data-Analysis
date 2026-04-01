@@ -3,7 +3,7 @@
 <table style="text-align:left;">
 <tr>
 <td style="vertical-align: top; padding-right: 20px;">
-  <img src="https://github.com/user-attachments/assets/76165142-dd1a-447d-8138-04c673c3a19b" alt="Foto Erlinda" width="150" style="border:none;"/>
+  <img src="https://github.com/user-attachments/assets/67489ce5-8e1c-4ec6-96d9-125b2d3ea78b" alt="Foto Erlinda" width="150" style="border:none;"/>
 </td>
 <td style="vertical-align: top;">
 
@@ -22,6 +22,16 @@
     West Kalimantan, Indonesia</em>
   </h4>
 
+</td>
+</tr>
+</table>
+
+<table style="text-align:left;">
+<tr>
+<td style="vertical-align: top; padding-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/6cde8ceb-f001-4cc4-b998-fed4bf727863" alt="Foto Yosephine Suharyanti" width="150" style="border:none;"/>
+</td>
+<td style="vertical-align: top;">
 
   <h2 style="margin:0; text-align:left; font-size:30px;">Dr. Ir. Yosephine Suharyanti, S.T., M.T.</h2>
 
@@ -30,8 +40,6 @@
     Universitas Atma Jaya Yogyakarta,<br>
     Yogyakarta, Indonesia</em>
   </h4>
-
-
 
 </td>
 </tr>
