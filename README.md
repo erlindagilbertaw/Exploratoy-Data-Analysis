@@ -3,13 +3,14 @@
 <table style="text-align:left;">
 <tr>
 <td style="vertical-align: top; padding-right: 20px;">
-  <img src="https://github.com/user-attachments/assets/6cde8ceb-f001-4cc4-b998-fed4bf727863" 
-       alt="Foto Erlinda" width="150" style="border:none;"/>
+  <img src="https://github.com/user-attachments/assets/6cde8ceb-f001-4cc4-b998-fed4bf727863" alt="Foto Erlinda" width="150" style="border:none;"/>
 </td>
 
 <td style="vertical-align: top;">
 
-  <h2 style="margin:0; text-align:left; font-size:30px;">Author</h2>
+  <h2 style="margin:0; text-align:left; font-size:30px;">
+    Authors:  
+  </h2>
 
   <h2 style="margin:0; text-align:left; font-size:30px;">
     Ir. Erlinda Gilberta Wibawa, S.T., M.T.
