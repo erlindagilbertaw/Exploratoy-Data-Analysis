@@ -9,7 +9,7 @@
 <td style="vertical-align: top;">
 
   <h2 style="margin:0; text-align:left; font-size:30px;">
-    Authorsss:
+    Authors:
   </h2>
 
   <h2 style="margin:0; text-align:left; font-size:30px;">
