@@ -6,7 +6,11 @@
   <img src="https://github.com/user-attachments/assets/76165142-dd1a-447d-8138-04c673c3a19b" alt="Foto Erlinda" width="150" style="border:none;"/>
 </td>
 <td style="vertical-align: top;">
-  <h2 style="margin:0; text-align:left; font-size:30px;">By: Ir. Erlinda Gilberta Wibawa, S.T., M.T.</h2>
+
+  <h2 style="margin:0; text-align:left; font-size:30px;">Authors:, M.T.</h2>
+</h2>
+
+  <h2 style="margin:0; text-align:left; font-size:30px;">Ir. Erlinda Gilberta Wibawa, S.T., M.T.</h2>
 
   <p style="margin:0; text-align:left; font-size:23px;">
     <a href="https://www.instagram.com/erlinda_gilberta/?hl=en" target="_blank">@erlinda_gilberta</a>
@@ -17,6 +21,18 @@
     Universitas Katolik Santo Agustinus Hippo,<br>
     West Kalimantan, Indonesia</em>
   </h4>
+
+
+  <h2 style="margin:0; text-align:left; font-size:30px;">Dr. Ir. Yosephine Suharyanti, S.T., M.T.</h2>
+
+  <h4 style="margin-top:5px; text-align:left; font-size:23px;">
+    <em>Lecturer in Industrial Engineering Engineering,<br>
+    Universitas Atma Jaya Yogyakarta,<br>
+    Yogyakarta, Indonesia</em>
+  </h4>
+
+
+
 </td>
 </tr>
 </table>
