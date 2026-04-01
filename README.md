@@ -3,7 +3,7 @@
 <table style="text-align:left;">
 <tr>
 <td style="vertical-align: top; padding-right: 20px;">
-  <img src="https://github.com/user-attachments/assets/67489ce5-8e1c-4ec6-96d9-125b2d3ea78b" alt="Foto Erlinda" width="150" style="border:none;"/>
+  <img src="https://github.com/user-attachments/assets/6cde8ceb-f001-4cc4-b998-fed4bf727863" alt="Foto Erlinda" width="150" style="border:none;"/>
 </td>
 <td style="vertical-align: top;">
 
