@@ -27,26 +27,28 @@ EDA is the initial stage in data analysis that aims to understand patterns, dete
 
 This study aims to analyze the importance of data examination and assumption testing in preparing datasets to be statistically feasible. This study is expected to improve the quality of data analysis, so that data-based decision making becomes more accurate and valid.
 
-<img src="https://github.com/user-attachments/assets/57dc7a39-4581-4a19-868d-03a5c532548f" width="1000"/>
+<img src="https://github.com/user-attachments/assets/57dc7a39-4581-4a19-868d-03a5c532548f" alt="Image1" width="1000"/>
 
 ___
 ## 1. DATA
 This study uses the “HBAT_MISSING” dataset that adopts information from the HATCO Dataset Documentation. The dataset consists of 70 respondents on 14 separate variables. This dataset is used to illustrate the implementation of data examination techniques and assumption tests.
 
-<img src="https://github.com/user-attachments/assets/ad08866e-9639-4a8b-bc08-3d5057c04c0f" width="1000"/>
+<img src="https://github.com/user-attachments/assets/ad08866e-9639-4a8b-bc08-3d5057c04c0f" alt="Table1" width="1000"/>
+
 ___
 ## 2. INITIAL NORMALITY TEST
 Data examination begins by conducting a Normality Test to determine the normality of quantitative variables. The normality test is carried out using the Kolmogorov-Smirnov method. The Kolmogorov-Smirnov test calculates the level of significance of the difference from the normal distribution. A significance value > significance level indicates that the variable data is normally distributed. Variables V1 to V4 and V6 to V9 have a p-value > alpha, indicating that the variables are normally distributed. In this quantitative data variable, only V5 is not normally distributed (p-value 0.043 < alpha 0.05).
+
 ___
 ## 3. MISSING VALUES
 In this case, it is assumed that missing values ​​cannot be ignored because they are known to originate from errors in completing the entire questionnaire.
 
-<img src="https://github.com/user-attachments/assets/55225656-2056-43d1-a1c6-b24066a8def9" width="500"/>
+<img src="https://github.com/user-attachments/assets/55225656-2056-43d1-a1c6-b24066a8def9" alt="Image2" width="500"/>
 
 ### **Handling Missing Values**
 Missing data can be handled by deleting or filling with a value. If the missing data is relatively small compared to the total data, then deleting incomplete data is one reasonable approach. Variables with at least 15% missing data are candidates for deletion, but higher levels of missing data (20% - 30%) can often be corrected (Hair et al., 2014). As stated by Hair et al., (2014), deletion of missing data is only done if the probability of Missing at Random (MAR) or Missing Completely at Random (MCAR) of the response is independent of the observed/missing data values. If the variables influence each other, then deletion is not the right choice.
 
-<img src="https://github.com/user-attachments/assets/5b156f8f-22f2-4aa8-9d26-06aa3cdead73" width="500"/>
+<img src="https://github.com/user-attachments/assets/5b156f8f-22f2-4aa8-9d26-06aa3cdead73" alt="Table3" width="500"/>
 
 The number of missing data can be reviewed based on variables and cases. It is known that the percentage of missing values ​​for each variable in the dataset is far below 15%, the largest is V1 (7.78%), so all are maintained. While the percentage of missing values ​​in cases is quite a lot above 15%. Therefore, so that the sample size is not reduced in order to maintain statistical power, imputation is carried out to replace missing values ​​in cases with possible values ​​based on the information obtained in the dataset (Hendrawati, 2015). One method of imputing missing values ​​is to calculate the mean/median/mode value as a substitute for the emptiness/error of the observation value. Replacement of missing values ​​in normally distributed metric data (V1, V2, V3, V4, V6, V7, V8, and V9) is done with the mean value, non-normally distributed metric data (V5) is done with the median value, and nonmetric data (V10 - V14) is done with the mode value.
 
@@ -54,7 +56,7 @@ ___
 ## 4. NORMALITY TEST
 Normality Test can be known from the statistical values ​​for the skewness and kurtosis values. If one of the calculated z values ​​exceeds the specified critical value, then the distribution characteristics are not normal. The critical value comes from the z distribution, based on the specified significance level. The most commonly used critical values ​​are ± 2.58 for a significance level of 0.01 and ± 1.96 for a significance level of 0.05. It can be seen from the 9 quantitative variables, only variables V4 and V9 are normal, the other variables (V1, V2, V3, V5, V6, V7, and V8) show deviations from normality in the Normality Test as a whole.
 
-<img src="https://github.com/user-attachments/assets/8ac4420d-5b78-4e3d-bce8-d04908f4ce3c" width="1000"/>
+<img src="https://github.com/user-attachments/assets/8ac4420d-5b78-4e3d-bce8-d04908f4ce3c" alt="Table4" width="1000"/>
 
 ### **Dealing with Non-normal Data**
 
@@ -63,51 +65,51 @@ Hair et al., (2014) explained that data transformation provides the primary mean
 - In V3, V5, V7, and V8, it can change to increase sharply to a more acceptable level of significance.
 - In V1 and V2 there is only a small change in the increase in significance. This can be caused by the number of outliers retained in V1 and V2, thus affecting the distribution of the variables.
 
-<img src="https://github.com/user-attachments/assets/71a01126-ce42-4298-b221-e1ab11601caa" width="1000"/>
+<img src="https://github.com/user-attachments/assets/71a01126-ce42-4298-b221-e1ab11601caa" alt="Image3" width="1000"/>
 
 ___
 ## 5. OUTLIERS
 Outliers are unusual observations that are far from other observations. Outliers are usually treated as abnormal values ​​that can affect the overall observation because of their extreme values ​​that are very high (upper outliers) or low (lower outliers).
 
 ### 5.1. Outliers Detection for Univariate Analysis
-<img src="https://github.com/user-attachments/assets/5485f30a-943c-46ab-af9d-c110414e463e" width="1000"/>
+<img src="https://github.com/user-attachments/assets/5485f30a-943c-46ab-af9d-c110414e463e" alt="Image4" width="1000"/>
 
 ### 5.2. Outliers Detection for Bivariate Analysis
 
 #### 5.2.1. Metric Data V1 – V7 against V9
-<img src="https://github.com/user-attachments/assets/ff627d22-7867-4ffe-b165-010f56ac559e" width="1000"/>
+<img src="https://github.com/user-attachments/assets/ff627d22-7867-4ffe-b165-010f56ac559e" alt="Image5" width="1000"/>
 
 #### 5.2.2. Nonmetric Data V10 – V14 against V9
-<img src="https://github.com/user-attachments/assets/826cd9be-6053-4b8e-9c79-10c6aac8f18b" width="1000"/>
+<img src="https://github.com/user-attachments/assets/826cd9be-6053-4b8e-9c79-10c6aac8f18b" alt="Image6" width="1000"/>
 
 ### 5.3. Outliers Detection for Multivariate Analysis
 Outliers detection in multivariate analysis is performed on all independent metric variables (Hair, et al., 2014), namely V1, V2, V3, V4, V5, V6, and V7. Outliers detection in multivariate analysis is performed using Mahalanobis D² measurements. The results of the Mahalanobis D² distance are then used to search for the Chi-square probability with the numeric expression of probability transformation in SPSS "1-CDF.CHISQ(MAH_1,7)". The number 7 indicates the degree of freedom that corresponds to the number of variables examined (in this case 7 independent variables). Multivariate outliers will appear if the value of the new probability variable is <0.001 (Statistics Solutions, 2020).
 
-<img src="https://github.com/user-attachments/assets/ec7cd39d-123f-449c-bc9c-4d9fe125e69d" width="1000"/>
+<img src="https://github.com/user-attachments/assets/ec7cd39d-123f-449c-bc9c-4d9fe125e69d" alt="Image7" width="1000"/>
 
 ### **Dealing with Outliers**
 From 22 cases that have outliers, a decision was made on which cases to delete and which to keep. The decision to keep was made based on the number of cases that appeared more than 1 in the detection of univariate outliers & bivariate outliers. So there were 9 cases that were deleted and 13 cases were kept. 
 
-<img src="https://github.com/user-attachments/assets/b5e83461-be4c-472c-b96a-37fc6e7962b7" width="1000"/>
+<img src="https://github.com/user-attachments/assets/b5e83461-be4c-472c-b96a-37fc6e7962b7" alt="Table5" width="1000"/>
 
 ___
 ## 6. HOMOSKEDASTISITAS TEST
 Homoscedasticity Test is conducted with Levene Test on the variance mean data whether the variance of a metric variable is the same in a number of groups. In Levene Test, the variance of metric variables is compared across levels of nonmetric variables. Homoscedasticity Test is suitable for the preparation of analysis of variance (ANOVA) or multivariate analysis of variance where nonmetric variables are independent variables. Homoscedasticity Test is also suitable for discriminant analysis where nonmetric variables are dependent measures (Hair, et al., 2014). Levene Test results show that out of 9 metric variables, only V5 shows a heteroscedasticity pattern (p-value <alpha 0.05) in more than one nonmetric variable (V10 and V14). In addition, none of the nonmetric variables have more than one problematic metric variable.
 
-<img src="https://github.com/user-attachments/assets/0bb2ec78-8e2f-4492-aecb-6596b63c9ef1" width="1000"/>
+<img src="https://github.com/user-attachments/assets/0bb2ec78-8e2f-4492-aecb-6596b63c9ef1" alt="Table6"  width="1000"/>
 
 ### **Dealing with Heteroscedasticity Data**
 Heteroscedastic variables can be corrected through data transformations similar to those used in the normality test stage. Most heteroscedasticity is the result of non-normality of one of the variables, and conversely, treating non-normality also corrects unequal variance dispersion. So curing heteroscedasticity will also address the normality issue.
 
 Normal data is not necessarily homogeneous and vice versa. In this case, the variable V5 in the non-normality handling step is normal, but when tested for homogeneity, V5 is heterogeneous with respect to the category variables V10 and V14. To overcome this, the data transformation steps as in the normality handling step are carried out again to overcome the heteroscedasticity problem for V5. After being transformed with a square root, heteroscedastic conditions occur in the nonmetric variables V10, V12, and V14. Levene Test is then re-conducted with adjustment of significance level. Heterogeneous nonmetric variables (V10, V12, and V14) are 0.01, while V11 and V13 use significance level of 0.05. Small significance level in V10, V12, and V14 will increase accuracy to reduce the level of testing error.
 
-<img src="https://github.com/user-attachments/assets/1916ca16-28ad-42e2-848e-2c5885eba2dd" width="1000"/>
+<img src="https://github.com/user-attachments/assets/1916ca16-28ad-42e2-848e-2c5885eba2dd" alt="Table7" width="1000"/>
 
 ___
 ## 7. LINEARITY TEST
 Linearity Test is used in bivariate and multivariate analysis to determine whether two or more variables have a significant linear relationship or not. Linearity Test is intended to show that the average obtained from the sample data group lies in straight lines (Jamaluddin & Tommeng, 2018). Linearity test can be done by comparing the significant value (p-value) of Linearity and p-value Deviation from Linearity with the level of significance (alpha). So there are 3 conditions for data linearity assessment criteria. P-value Linearity < alpha and p-value Deviation > alpha indicate a linear relationship. P-value Linearity < alpha and p-value Deviation < alpha indicate a linear relationship. P-value Linearity > alpha and p-value Deviation < or > alpha indicate a relationship cannot be concluded. Bivariate analysis in this case, namely V9 ​​is influenced by V1, V2, V3, V4, V5, V6, & V7. The Linearity Test results show that only V3 is non-linear to V9.
 
-<img src="https://github.com/user-attachments/assets/6683d37f-2c73-4b93-b36b-ca62ab9b367f" width="500"/>
+<img src="https://github.com/user-attachments/assets/6683d37f-2c73-4b93-b36b-ca62ab9b367f" alt="Image8" width="500"/>
 
 ### **Dealing with Non-linier Data**
 If a non-linear relationship is detected, the most direct approach is to change one or both variables to achieve linearity. An alternative with data transformation is carried out to create new variables to represent the non-linear part of the relationship (Hair et al., 2014). The variable V3 to V9 forms a right convex curve, so a quadratic transformation is performed on the dependent variable (V9) first. Based on the Linearity Test of Variable V9 to the new transformed V3 data, the p-value (0.024) < significance level (0.05) so that there is still no linear relationship. So the next step is to transform the independent variable (V3) with a quadratic. The result is p-value (0.029) < significance level (0.05) so that there is still no linear relationship either. The linearity visualization of V3 and V9 shows a negative curvilinear relationship. Because it is impossible to force changes in the distribution of dependent and independent variables to follow a straight line, simple non-linear regression analysis can be used for bivariate and multivariate analysis.
@@ -118,7 +120,7 @@ Simple correlation analysis is used to determine whether there is a relationship
 
 There are various methods to determine the correlation coefficient that is differentiated based on the type of observation data. The most commonly used correlation coefficient is the Pearson product moment correlation coefficient which is used for ratio/interval measurement scale data (Jackson, 2015). Delivery speed (V1), Price Level (V2), Price Flexibility (V3), Manufacturer Image (V4), Service (V5), Salesforce Image (V6), & Product Quality (V7) variables against Satisfaction level (V9), where all of these variables are ratio data.
 
-<img src="https://github.com/user-attachments/assets/042208a3-ace2-443c-9dee-7c2e3489284c" width="1000"/>
+<img src="https://github.com/user-attachments/assets/042208a3-ace2-443c-9dee-7c2e3489284c" alt="Image9" width="1000"/>
 
 Another correlation coefficient method is Kendall's tau-b correlation coefficient. This method is used to determine the non-parametric relationship between two ordinal-scale variables/one of the ordinal-scale data while the other data is continuous data, ratio and interval data (Ma, Y. 2012) or non-continuous data, such as nominal data whose use is changed as ranking data so that it becomes ordinal-scale. An example of this correlation is the Size of Firm variable (V10) which is ordinal data with Satisfaction Level (V9) which is ratio data. The non-parametric correlation coefficient V10 with V9 produces a moderate relationship strength (-0.408) with a negative relationship direction. This indicates that the larger the company, the smaller the purchase satisfaction.
 
