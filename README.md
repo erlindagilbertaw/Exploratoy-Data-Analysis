@@ -27,7 +27,7 @@ EDA is the initial stage in data analysis that aims to understand patterns, dete
 
 This study aims to analyze the importance of data examination and assumption testing in preparing datasets to be statistically feasible. This study is expected to improve the quality of data analysis, so that data-based decision making becomes more accurate and valid.
 
-<img src="https://github.com/user-attachments/assets/23fd21e8-219b-4aae-9a5f-f169bee7041b" alt="Image1" width="1000"/>
+<img src="https://github.com/user-attachments/assets/5fb18790-1c38-4f29-8bca-4191046e0d16" alt="Image1" width="1000"/>
 
 ___
 ## 1. DATA
@@ -109,7 +109,7 @@ Normal data is not necessarily homogeneous and vice versa. In this case, the var
 
 ___
 ## 7. LINEARITY TEST
-Linearity Test is used in bivariate and multivariate analysis to determine whether two or more variables have a significant linear relationship or not. Linearity Test is intended to show that the average obtained from the sample data group lies in straight lines (Jamaluddin & Tommeng, 2018). Linearity test can be done by comparing the significant value (p-value) of Linearity and p-value Deviation from Linearity with the level of significance (alpha). So there are 3 conditions for data linearity assessment criteria. P-value Linearity < alpha and p-value Deviation > alpha indicate a linear relationship. P-value Linearity < alpha and p-value Deviation < alpha indicate a linear relationship. P-value Linearity > alpha and p-value Deviation < or > alpha indicate a relationship cannot be concluded. Bivariate analysis in this case, namely V9 ​​is influenced by V1, V2, V3, V4, V5, V6, & V7. The Linearity Test results show that only V3 is non-linear to V9.
+Linearity Test is used in bivariate and multivariate analysis to determine whether two or more variables have a significant linear relationship or not. Linearity Test is intended to show that the average obtained from the sample data group lies in straight lines (Jamaluddin & Tommeng, 2018). Linearity test can be done by comparing the significant value (p-value) of Linearity and p-value Deviation from Linearity with the level of significance (alpha). So there are 3 conditions for data linearity assessment criteria. P-value Linearity < alpha and p-value Deviation > alpha indicate a linear relationship. P-value Linearity < alpha and p-value Deviation < alpha indicate a non-linear relationship. P-value Linearity > alpha and p-value Deviation < or > alpha indicate a relationship cannot be concluded. Bivariate analysis in this case, namely V9 ​​is influenced by V1, V2, V3, V4, V5, V6, & V7. The Linearity Test results show that only V3 is non-linear to V9.
 
 <img src="https://github.com/user-attachments/assets/575f3119-d743-445c-ba18-bd4e9888d409" alt="Image8" width="500"/>
 
