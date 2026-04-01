@@ -31,7 +31,7 @@ This study aims to analyze the importance of data examination and assumption tes
 
 ___
 ## 1. DATA
-This study uses the “HBAT_MISSING” dataset that adopts information from the HATCO Dataset Documentation. The dataset consists of 70 respondents on 14 separate variables. This dataset is used to illustrate the implementation of data examination techniques and assumption tests.
+This study uses the [*HBAT_MISSING*](https://github.com/erlindagilbertaw/EDA_DataExamination_AssumptionTesting.github.io/blob/main/HBAT_Missing.xlsx) dataset that adopts information from the HATCO Dataset Documentation. The dataset consists of 70 respondents on 14 separate variables. This dataset is used to illustrate the implementation of data examination techniques and assumption tests. 
 
 <img src="https://github.com/user-attachments/assets/b59126dc-5c19-48d3-a88b-08dc757edece" alt="Table1" width="1000"/>
 
