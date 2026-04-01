@@ -24,12 +24,12 @@
 
 <img src="https://github.com/user-attachments/assets/1311dc05-d9e9-4e77-8042-d84b3be545dd" alt="Foto Erlinda" width="150" style="border:none;"/>
 
-<img src="https://github.com/user-attachments/assets/57dc7a39-4581-4a19-868d-03a5c532548f" alt="EDA_Assumption_Image 1" width="150" style="border:none;"/>
+<img src="https://github.com/user-attachments/assets/23fd21e8-219b-4aae-9a5f-f169bee7041b" alt="EDA_Assumption_Image1" width="150" style="border:none;"/>
   
 <table style="text-align:left;">
 <tr>
 <td style="vertical-align: top; padding-right: 20px;">
-  <img src="https://github.com/user-attachments/assets/1311dc05-d9e9-4e77-8042-d84b3be545dd" alt="Foto Erlinda" width="150" style="border:none;"/>
+  <img src="https://github.com/user-attachments/assets/57dc7a39-4581-4a19-868d-03a5c532548f" alt="EDA_Assumption_Image1" width="150" style="border:none;"/>
 </td>
 <td style="vertical-align: top;">
   <h2 style="margin:0; text-align:left; font-size:30px;">By: Ir. Erlinda Gilberta Wibawa, S.T., M.T.</h2>
