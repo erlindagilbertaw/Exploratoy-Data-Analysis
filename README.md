@@ -21,6 +21,30 @@
 </tr>
 </table>
 
+
+<img src="https://github.com/user-attachments/assets/1311dc05-d9e9-4e77-8042-d84b3be545dd" alt="Foto Erlinda" width="150" style="border:none;"/>
+  
+<table style="text-align:left;">
+<tr>
+<td style="vertical-align: top; padding-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/1311dc05-d9e9-4e77-8042-d84b3be545dd" alt="Foto Erlinda" width="150" style="border:none;"/>
+</td>
+<td style="vertical-align: top;">
+  <h2 style="margin:0; text-align:left; font-size:30px;">By: Ir. Erlinda Gilberta Wibawa, S.T., M.T.</h2>
+
+  <p style="margin:0; text-align:left; font-size:23px;">
+    <a href="https://www.instagram.com/erlinda_gilberta/?hl=en" target="_blank">@erlinda_gilberta</a>
+  </p>
+
+  <h4 style="margin-top:5px; text-align:left; font-size:23px;">
+    <em>Lecturer in Logistics Engineering,<br>
+    Universitas Katolik Santo Agustinus Hippo,<br>
+    West Kalimantan, Indonesia</em>
+  </h4>
+</td>
+</tr>
+</table>
+
 Data is a very valuable asset in making various decisions. However, raw data collected from various sources often cannot be used directly. This can be caused by various constraints that often arise in the data collection process. If used directly without adjusting the feasibility and requirements of certain statistical analysis methods, the data has the potential to produce misleading or inaccurate interpretations. Therefore, a systematic initial process is needed to explore the structure and characteristics of the data before further analysis is carried out. This aims to ensure that the data is in a condition that is suitable for valid and accountable analysis. One approach that is commonly used is Exploratory Data Analysis (EDA).
 
 EDA is the initial stage in data analysis that aims to understand patterns, detect anomalies, and test assumptions through statistical techniques and visualization. In this study, data examination and assumption testing were carried out to identify missing values ​​and outliers from the raw dataset so that it is worthy of further analysis. Without the right examination process, statistical analysis can produce errors and produce invalid interpretations. Furthermore, assumption testing is carried out to ensure that the data meets certain requirements determined by a statistical analysis method. Ignoring assumption testing can lead to errors in decision making and interpretation of results. Data examination and assumption testing are important foundations in statistical data analysis which aim to increase the validity and reliability of analysis results.
@@ -150,28 +174,3 @@ ___
 > Lind, D. A., Marchal, W. G., dan Wathen, S. A. (2014). Teknik-teknik Statistika dalam Bisnis dan Ekonomi. Edisi 15 Buku 2. Jakarta: 	Salemba Empat.
 
 > Ma, Y. (2012). On Interface fo Kendall’s Τ Within a Longitudinal Data Setting. Journal of Applied Statistics, 39, pp. 2441-2445.
-
-
-
-  <img src="https://github.com/user-attachments/assets/1311dc05-d9e9-4e77-8042-d84b3be545dd" alt="Foto Erlinda" width="150" style="border:none;"/>
-  
-<table style="text-align:left;">
-<tr>
-<td style="vertical-align: top; padding-right: 20px;">
-  <img src="https://github.com/user-attachments/assets/1311dc05-d9e9-4e77-8042-d84b3be545dd" alt="Foto Erlinda" width="150" style="border:none;"/>
-</td>
-<td style="vertical-align: top;">
-  <h2 style="margin:0; text-align:left; font-size:30px;">By: Ir. Erlinda Gilberta Wibawa, S.T., M.T.</h2>
-
-  <p style="margin:0; text-align:left; font-size:23px;">
-    <a href="https://www.instagram.com/erlinda_gilberta/?hl=en" target="_blank">@erlinda_gilberta</a>
-  </p>
-
-  <h4 style="margin-top:5px; text-align:left; font-size:23px;">
-    <em>Lecturer in Logistics Engineering,<br>
-    Universitas Katolik Santo Agustinus Hippo,<br>
-    West Kalimantan, Indonesia</em>
-  </h4>
-</td>
-</tr>
-</table>
