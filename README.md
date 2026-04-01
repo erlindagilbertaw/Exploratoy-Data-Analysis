@@ -152,3 +152,26 @@ ___
 > Ma, Y. (2012). On Interface fo Kendall’s Τ Within a Longitudinal Data Setting. Journal of Applied Statistics, 39, pp. 2441-2445.
 
 
+
+  <img src="https://github.com/user-attachments/assets/1311dc05-d9e9-4e77-8042-d84b3be545dd" alt="Foto Erlinda" width="150" style="border:none;"/>
+  
+<table style="text-align:left;">
+<tr>
+<td style="vertical-align: top; padding-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/1311dc05-d9e9-4e77-8042-d84b3be545dd" alt="Foto Erlinda" width="150" style="border:none;"/>
+</td>
+<td style="vertical-align: top;">
+  <h2 style="margin:0; text-align:left; font-size:30px;">By: Ir. Erlinda Gilberta Wibawa, S.T., M.T.</h2>
+
+  <p style="margin:0; text-align:left; font-size:23px;">
+    <a href="https://www.instagram.com/erlinda_gilberta/?hl=en" target="_blank">@erlinda_gilberta</a>
+  </p>
+
+  <h4 style="margin-top:5px; text-align:left; font-size:23px;">
+    <em>Lecturer in Logistics Engineering,<br>
+    Universitas Katolik Santo Agustinus Hippo,<br>
+    West Kalimantan, Indonesia</em>
+  </h4>
+</td>
+</tr>
+</table>
