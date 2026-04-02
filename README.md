@@ -67,6 +67,9 @@ This study aims to analyze the importance of data examination and assumption tes
 
 <img src="https://github.com/user-attachments/assets/5fb18790-1c38-4f29-8bca-4191046e0d16" alt="Image1" width="1000"/>
 
+**Conceptuan Framework of the Study**<BR>
+**Source:** Author's documentation
+
 ___
 ## 1. DATA
 This study uses the [*HBAT_MISSING*](https://github.com/erlindagilbertaw/EDA_DataExamination_AssumptionTesting.github.io/blob/main/HBAT_Missing.xlsx) dataset that adopts information from the HATCO Dataset Documentation. The dataset consists of 70 respondents on 14 separate variables. This dataset is used to illustrate the implementation of data examination techniques and assumption tests. 
@@ -79,16 +82,21 @@ Data examination begins by conducting a Normality Test to determine the normalit
 
 <img src="https://github.com/user-attachments/assets/5f51ca64-a9d8-4761-adcf-22a4a3e87fd8" alt="Table2" width="500"/>
 
+**Source:** Author's documentation
 ___
 ## 3. MISSING VALUES
 In this case, it is assumed that missing values ​​cannot be ignored because they are known to originate from errors in completing the entire questionnaire.
 
 <img src="https://github.com/user-attachments/assets/d5d1ec9b-3c1b-4f59-b28b-8eb06a036876" alt="Image2" width="500"/>
 
+**Source:** Author's documentation
+
 ### **Handling Missing Values**
 Missing data can be handled by deleting or filling with a value. If the missing data is relatively small compared to the total data, then deleting incomplete data is one reasonable approach. Variables with at least 15% missing data are candidates for deletion, but higher levels of missing data (20% - 30%) can often be corrected (Hair et al., 2014). As stated by Hair et al., (2014), deletion of missing data is only done if the probability of Missing at Random (MAR) or Missing Completely at Random (MCAR) of the response is independent of the observed/missing data values. If the variables influence each other, then deletion is not the right choice.
 
 <img src="https://github.com/user-attachments/assets/2fd71cb1-866b-477f-ad68-286b0b0df033" alt="Table3" width="500"/>
+
+**Source:** Author's documentation
 
 The number of missing data can be reviewed based on variables and cases. It is known that the percentage of missing values ​​for each variable in the dataset is far below 15%, the largest is V1 (7.78%), so all are maintained. While the percentage of missing values ​​in cases is quite a lot above 15%. Therefore, so that the sample size is not reduced in order to maintain statistical power, imputation is carried out to replace missing values ​​in cases with possible values ​​based on the information obtained in the dataset (Hendrawati, 2015). One method of imputing missing values ​​is to calculate the mean/median/mode value as a substitute for the emptiness/error of the observation value. Replacement of missing values ​​in normally distributed metric data (V1, V2, V3, V4, V6, V7, V8, and V9) is done with the mean value, non-normally distributed metric data (V5) is done with the median value, and nonmetric data (V10 - V14) is done with the mode value.
 
@@ -97,6 +105,8 @@ ___
 Normality Test can be known from the statistical values ​​for the skewness and kurtosis values. If one of the calculated z values ​​exceeds the specified critical value, then the distribution characteristics are not normal. The critical value comes from the z distribution, based on the specified significance level. The most commonly used critical values ​​are ± 2.58 for a significance level of 0.01 and ± 1.96 for a significance level of 0.05. It can be seen from the 9 quantitative variables, only variables V4 and V9 are normal, the other variables (V1, V2, V3, V5, V6, V7, and V8) show deviations from normality in the Normality Test as a whole.
 
 <img src="https://github.com/user-attachments/assets/1d7afe7c-078d-4936-9ce4-4e329d52da1c" alt="Table4" width="1000"/>
+
+**Source:** Author's documentation
 
 ### **Dealing with Non-normal Data**
 
@@ -107,6 +117,8 @@ Hair et al., (2014) explained that data transformation provides the primary mean
 
 <img src="https://github.com/user-attachments/assets/a5dde9c6-e7db-4c8f-a761-c8d9038bae9d" alt="Image3" width="1000"/>
 
+**Source:** Author's documentation
+
 ___
 ## 5. OUTLIERS
 Outliers are unusual observations that are far from other observations. Outliers are usually treated as abnormal values ​​that can affect the overall observation because of their extreme values ​​that are very high (upper outliers) or low (lower outliers).
@@ -114,29 +126,41 @@ Outliers are unusual observations that are far from other observations. Outliers
 ### 5.1. Outliers Detection for Univariate Analysis
 <img src="https://github.com/user-attachments/assets/8a003f01-e969-4312-bddc-e25378da8020" alt="Image4" width="1000"/>
 
+**Source:** Author's documentation
+
 ### 5.2. Outliers Detection for Bivariate Analysis
 
 #### 5.2.1. Metric Data V1 – V7 against V9
 <img src="https://github.com/user-attachments/assets/a9645b25-6a69-498a-afa1-1e83e33b5daf" alt="Image5" width="1000"/>
 
+**Source:** Author's documentation
+
 #### 5.2.2. Nonmetric Data V10 – V14 against V9
 <img src="https://github.com/user-attachments/assets/aafc1417-30bb-430a-a94f-8d8f8eceba1e" alt="Image6" width="1000"/>
+
+**Source:** Author's documentation
 
 ### 5.3. Outliers Detection for Multivariate Analysis
 Outliers detection in multivariate analysis is performed on all independent metric variables (Hair, et al., 2014), namely V1, V2, V3, V4, V5, V6, and V7. Outliers detection in multivariate analysis is performed using Mahalanobis D² measurements. The results of the Mahalanobis D² distance are then used to search for the Chi-square probability with the numeric expression of probability transformation in SPSS "1-CDF.CHISQ(MAH_1,7)". The number 7 indicates the degree of freedom that corresponds to the number of variables examined (in this case 7 independent variables). Multivariate outliers will appear if the value of the new probability variable is <0.001 (Statistics Solutions, 2020).
 
 <img src="https://github.com/user-attachments/assets/f6d07a7f-984b-46ce-ac17-e841d03246ae" alt="Image7" width="1000"/>
 
+**Source:** Author's documentation
+
 ### **Dealing with Outliers**
 From 22 cases that have outliers, a decision was made on which cases to delete and which to keep. The decision to keep was made based on the number of cases that appeared more than 1 in the detection of univariate outliers & bivariate outliers. So there were 9 cases that were deleted and 13 cases were kept. 
 
 <img src="https://github.com/user-attachments/assets/d0aaa892-21b2-4f88-a99e-5ab8ebeaa50a" alt="Table5" width="1000"/>
+
+**Source:** Author's documentation
 
 ___
 ## 6. HOMOSKEDASTISITAS TEST
 Homoscedasticity Test is conducted with Levene Test on the variance mean data whether the variance of a metric variable is the same in a number of groups. In Levene Test, the variance of metric variables is compared across levels of nonmetric variables. Homoscedasticity Test is suitable for the preparation of analysis of variance (ANOVA) or multivariate analysis of variance where nonmetric variables are independent variables. Homoscedasticity Test is also suitable for discriminant analysis where nonmetric variables are dependent measures (Hair, et al., 2014). Levene Test results show that out of 9 metric variables, only V5 shows a heteroscedasticity pattern (p-value <alpha 0.05) in more than one nonmetric variable (V10 and V14). In addition, none of the nonmetric variables have more than one problematic metric variable.
 
 <img src="https://github.com/user-attachments/assets/cfb2116b-3f07-432b-8735-f6f0b26af9ae" alt="Table6"  width="1000"/>
+
+**Source:** Author's documentation
 
 ### **Dealing with Heteroscedasticity Data**
 Heteroscedastic variables can be corrected through data transformations similar to those used in the normality test stage. Most heteroscedasticity is the result of non-normality of one of the variables, and conversely, treating non-normality also corrects unequal variance dispersion. So curing heteroscedasticity will also address the normality issue.
@@ -145,13 +169,19 @@ Normal data is not necessarily homogeneous and vice versa. In this case, the var
 
 <img src="https://github.com/user-attachments/assets/ae7726e4-6c39-4a57-a1ed-204fc248a34f" alt="Table7" width="1000"/>
 
+**Source:** Author's documentation
+
 ___
 ## 7. LINEARITY TEST
 Linearity Test is used in bivariate and multivariate analysis to determine whether two or more variables have a significant linear relationship or not. Linearity Test is intended to show that the average obtained from the sample data group lies in straight lines (Jamaluddin & Tommeng, 2018). Linearity test can be done by comparing the significant value (p-value) of Linearity and p-value Deviation from Linearity with the level of significance (alpha). So there are 3 conditions for data linearity assessment criteria. P-value Linearity < alpha and p-value Deviation > alpha indicate a linear relationship. P-value Linearity < alpha and p-value Deviation < alpha indicate a non-linear relationship. P-value Linearity > alpha and p-value Deviation < or > alpha indicate a relationship cannot be concluded. Bivariate analysis in this case, namely V9 ​​is influenced by V1, V2, V3, V4, V5, V6, & V7. The Linearity Test results show that only V3 is non-linear to V9.
 
 <img src="https://github.com/user-attachments/assets/eb4fc52f-72f0-4229-9078-176f6e7b734c" alt="Table8" width="1000"/>
 
+**Source:** Author's documentation
+
 <img src="https://github.com/user-attachments/assets/575f3119-d743-445c-ba18-bd4e9888d409" alt="Image8" width="500"/>
+
+**Source:** Author's documentation
 
 ### **Dealing with Non-linier Data**
 If a non-linear relationship is detected, the most direct approach is to change one or both variables to achieve linearity. An alternative with data transformation is carried out to create new variables to represent the non-linear part of the relationship (Hair et al., 2014). 
@@ -167,6 +197,8 @@ Simple correlation analysis is used to determine whether there is a relationship
 There are various methods to determine the correlation coefficient that is differentiated based on the type of observation data. The most commonly used correlation coefficient is the Pearson Product Moment Correlation coefficient which is used for ratio/interval measurement scale data (Jackson, 2015). Delivery speed (V1), Price Level (V2), Price Flexibility (V3), Manufacturer Image (V4), Service (V5), Salesforce Image (V6), & Product Quality (V7) variables against Satisfaction level (V9), where all of these variables are ratio data.
 
 <img src="https://github.com/user-attachments/assets/217a9576-1fdd-4afc-b349-58d2d0e8954e" alt="Image9" width="1000"/>
+
+**Source:** Author's documentation
 
 Another correlation coefficient method is Kendall's tau-b Correlation coefficient. This method is used to determine the non-parametric relationship between two ordinal-scale variables/one of the ordinal-scale data while the other data is continuous data, ratio and interval data (Ma, Y. 2012) or non-continuous data, such as nominal data whose use is changed as ranking data so that it becomes ordinal-scale. An example of this correlation is the Size of Firm variable (V10) which is ordinal data with Satisfaction Level (V9) which is ratio data. The non-parametric correlation coefficient V10 with V9 produces a moderate relationship strength (-0.49) with a negative relationship direction. This indicates that the larger the company, the smaller the purchase satisfaction.
 
